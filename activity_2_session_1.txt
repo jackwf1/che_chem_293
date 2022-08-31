@@ -1,0 +1,22 @@
+Report:
+What does the model achieve?
+The model shows that there is a linear relationship between the number of apples eaten in a week and yearly doctor's office trips needed.
+
+How should metrics be interpreted?
+Slope is the relationship between apples eaten and number of trups to the doctor's office.
+
+What are appropriate use cases?
+To determine if there is a linear correlation between the two data sets.
+
+How is it implemented? *
+A linear regression is achieved by determining a line of best fit for the data sets. This is done by minimizing residuals.
+
+What are caveats/biases/concerns to its usage?
+The concern is that it does not consider extended values on the x or y axises. Also, since someone cannot have negative apples per week or negative doctor's office visits per week, the linear regression is bound by these constraints.
+
+How to interpret this specific result and advising action/next steps
+The r square value of 0.9931 and P value of less than 0.0001 show that the linear slope of -1.417 was a good fit.
+The x intercept of 7 shows that an apple a day does keep the doctor away.
+
+The linear regression is below:
+https://www.graphpad.com/temp/quickcalcs/1661916747510_linearRegressionResults.png
